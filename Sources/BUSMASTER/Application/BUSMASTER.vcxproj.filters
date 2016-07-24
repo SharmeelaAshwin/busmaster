@@ -555,6 +555,9 @@
     <ClInclude Include="frChannelSettingsHandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SigWndGraphWrapper_Extern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="resource.hm">

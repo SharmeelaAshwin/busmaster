@@ -1011,6 +1011,7 @@ copy ".\Res\Splsh16.bmp" "$(SolutionDir)\bin\$(OutDir)Splsh16.bmp"
     <ClInclude Include="SigGrphConfigDlg.h" />
     <ClInclude Include="SigGrphWndHandler.h" />
     <ClInclude Include="SignalDetailsDlg.h" />
+    <ClInclude Include="SigWndGraphWrapper_Extern.h" />
     <ClInclude Include="Splash.h" />
     <ClInclude Include="SplFileDlg.h" />
     <ClInclude Include="StdAfx.h" />
@@ -1177,10 +1178,6 @@ copy ".\Res\Splsh16.bmp" "$(SolutionDir)\bin\$(OutDir)Splsh16.bmp"
       <Project>{eac6f74a-3343-4416-808d-700bac7b2f37}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\SigGrphWnd\SigGrphWnd.vcxproj">
-      <Project>{11a11cea-45ed-4fe6-bde2-643df9267fac}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="..\SignalDefiner\SignalDefiner.vcxproj">
       <Project>{548afeb2-ea30-4501-9f36-766ae11b791a}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
@@ -1189,6 +1186,7 @@ copy ".\Res\Splsh16.bmp" "$(SolutionDir)\bin\$(OutDir)Splsh16.bmp"
       <Project>{9837d037-cec8-41fb-bfa0-7f63491f4143}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\SigWndGraphWrapper\SigWndGraphWrapper.vcxproj" />
     <ProjectReference Include="..\TestSetupEditorGUI\TestSetupEditorGUI.vcxproj">
       <Project>{cddb1221-83ef-4683-8466-966a153da8e2}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
