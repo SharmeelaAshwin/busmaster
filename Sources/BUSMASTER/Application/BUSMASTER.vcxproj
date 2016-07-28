@@ -1186,7 +1186,6 @@ copy ".\Res\Splsh16.bmp" "$(SolutionDir)\bin\$(OutDir)Splsh16.bmp"
       <Project>{9837d037-cec8-41fb-bfa0-7f63491f4143}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\SigWndGraphWrapper\SigWndGraphWrapper.vcxproj" />
     <ProjectReference Include="..\TestSetupEditorGUI\TestSetupEditorGUI.vcxproj">
       <Project>{cddb1221-83ef-4683-8466-966a153da8e2}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

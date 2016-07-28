@@ -19,7 +19,7 @@
 #define USAGE_EXPORT
 #include "SigWndGraphWrapper_Extern.h"
 
-#import "..\BIN\busmaster_debug\SignalGraphWndCSharp.tlb" named_guids raw_interfaces_only
+#import "..\BIN\debug\SignalGraphWndCSharp.tlb" named_guids raw_interfaces_only
 using namespace SignalGraphWndCSharp;
 
 static AFX_EXTENSION_MODULE SigWndGraphWrapperDLL = { false, nullptr };
